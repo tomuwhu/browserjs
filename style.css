@@ -5,3 +5,21 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(92, 92, 92), 0 0 0.2em rgb(117, 117, 117);
 }
+table {
+    margin: auto;
+    border: solid 2px black;
+    border-spacing: 10px;
+    user-select: none;
+}
+td {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(92, 92, 92), 0 0 0.2em rgb(117, 117, 117);
+    background-color: aquamarine;
+    box-shadow: inset 0 0 0 2px rgb(0, 0, 0);
+    border-radius: 10px;
+}
